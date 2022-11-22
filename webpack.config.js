@@ -38,7 +38,6 @@ module.exports = {
             {
                 test: /\.(jsx?)$/,
                 loader: 'babel-loader',
-                exclude: /node_modules\/(?!@ck\/tg)/,
                 options: babelOpts
             },
             {
