@@ -63,9 +63,9 @@ module.exports = {
             {
                 test: /\.(jsx?)$/,
                 loader: '@compiled/webpack-loader',
-                options: {
-                    extract: true
-                }
+                // options: {
+                //     extract: true
+                // }
             }
         ]
     },
